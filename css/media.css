@@ -1,0 +1,183 @@
+@media(max-width: 1200px) {
+    .portfolio__img {
+        margin-bottom: 30px;
+    }
+
+    .team-contact__icon {
+        margin: 0 6px;
+    }
+}
+
+@media (max-width: 992px) {
+    .menu__item {
+        font-size: 16px;
+        margin-left: 25px;
+    }
+
+    .header__title {
+        font-size: 50px;
+    }
+
+    .header__subtitle {
+        font-size: 20px;
+    }
+
+    .portfolio__img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .team__member-photo {
+        margin-top: 30px;
+    }
+
+    .blog-item {
+        padding: 30px 0 40px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .topbar__menu-icon {
+        display: block;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: 0;
+        opacity: 0;
+        transition: 0.5s;
+    } 
+
+    .menu-active {
+        height: 250px;
+        opacity: 1;
+    }
+
+    .menu__item {
+        padding-bottom: 15px;
+    }
+
+
+    .header__title {
+        font-size: 40px;
+    }
+
+    .header__subtitle {
+        font-size: 18px;
+    }
+
+    .header__button {
+        font-size: 16px;
+        padding: 10px 15px;
+        min-width: 160px;
+        border: 3px solid #f8f8f8;
+    }
+
+    .section {
+        padding: 90px 0;
+    }
+
+    .about__item-icon {
+        margin-bottom: 20px;
+    }
+
+    .about__item-text {
+        margin-bottom: 70px;
+    }
+
+}
+
+@media (max-width: 575px) {
+    .header__title {
+        font-size: 30px;
+    }
+
+    .header__subtitle {
+        font-size: 16px;
+    }
+
+    .services__card {
+        margin: 0 auto 30px;
+        max-width: 370px;
+    }
+
+    .services-card__button {
+        font-size: 14px; 
+    }
+
+    .pricing__card {
+        margin: 15px auto;
+    }
+
+    .footer__contacts {
+        max-width: 260px;
+        margin: 0 auto 84px;
+    }
+
+    
+
+}
+
+@media (max-width: 413px) {
+
+    .header__button {
+        display: block;
+        margin: 0 auto 25px;
+    }
+
+    .services-card {
+        padding: 50px 30px;
+    }
+
+    .blog-item__description {
+        font-size: 15px;
+    }
+
+    .blog-description__item {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .pricing-card {
+        padding-bottom: 40px;
+    }
+
+    .pricing-card__header {
+        padding: 30px 0;
+    }
+
+    .pricing-card__title {
+        font-size: 22px;
+    }
+
+    .pricing-card__subtitle {
+        font-size: 30px;
+    }
+
+    .pricing-card__subtitle_medium-text {
+        font-size: 17px;
+        margin-right: -5px;
+    }
+
+    .pricing-card__subtitle_small-text {
+        font-size: 13px;
+    }
+
+    .pricing-card__list-item {
+        font-size: 14px;
+        min-width: 140px;
+        padding-bottom: 5px;
+        margin-top: 15px;
+    }
+
+    .pricing-card__button {
+        font-size: 14px;
+        margin-top: 40px;
+    }    
+
+}
