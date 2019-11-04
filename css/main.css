@@ -433,12 +433,6 @@ button {
     transition: 0.5s;
 }
 
-/* .team-contact__icon:hover .fa-facebook-f{
-    color: #ffffff;
-    background-color: #3949ab;
-    /* background-color: #E94C88; */
-/* } */ 
-
 .fa-facebook-f:hover {
     color: #ffffff;
     background-color: #3949ab;
@@ -460,8 +454,34 @@ button {
 
 }
 
+/*  slick carousel */
 
+.slick-slide {
+    outline: none;
+}
 
+.slick-dots {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.slick-dots li {
+    background-color: #00897b;
+    margin-left: 10px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.slick-dots li.slick-active {
+    background-color: #3949ab;
+}
+
+.slick-dots button {
+    display: none;
+}
 
 /*         BLOG         */
 .blog {

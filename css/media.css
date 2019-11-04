@@ -94,6 +94,10 @@
         margin-bottom: 70px;
     }
 
+    .team__member-photo {
+        margin: 0 auto 30px;
+    }
+
 }
 
 @media (max-width: 575px) {
